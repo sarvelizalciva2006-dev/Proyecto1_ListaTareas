@@ -1,0 +1,78 @@
+
+.App {
+  background-color: #f8f0ff; 
+  min-height: 100vh;
+  /* Estas 3 líneas son el secreto para centrar todo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(150, 100, 255, 0.2);
+  
+  /* Ajustamos el ancho a algo más equilibrado */
+  width: 100%;
+  max-width: 450px; 
+  
+  border: 4px solid #d1b3ff;
+  text-align: center; /* Centra el texto e imágenes internos */
+}
+
+.bt21-img {
+  /* Tamaño ajustable: prueba con 200px o 250px */
+  width: 220px; 
+  height: auto;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 5px 10px rgba(107, 79, 163, 0.2));
+}
+
+h1 {
+  color: #6b4fa3;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #e0d0ff;
+  border-radius: 15px;
+  outline: none;
+}
+
+.add-btn {
+  background: #a389f4;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 0 20px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+/* Para que las tareas se vean alineadas */
+.tarea {
+  background: #f3ebff;
+  margin-top: 10px;
+  padding: 12px 15px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #5a4481;
+  text-align: left; /* El texto de la tarea a la izquierda */
+}
