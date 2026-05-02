@@ -16,8 +16,8 @@ app.get('/*path', (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html')); 
 }); 
 
-app.listen(3000, () => {
-  console.log("Se pudo unir en http://localhost:3000");
+app.listen(PORT, () => {
+  console.log("Se pudo unir en ${PORT}");
 });
 
 
